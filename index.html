@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Aqui va el titulo de la pagina -->
     <title>MundodeAviones</title>
+    <!-- Creacion del titulo de la pagina -->
     <link rel="icon" sizes="64x64" href="./img/icono avion.png">
     <style>
-        /* Aquí va el estilo */
+        /* Aquí va el estilo para el banner del header*/
         header {
     position: relative;
     width: 100%;
@@ -27,6 +29,43 @@
 }
 
     </style>
+
+<style>
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #333; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+/* Lista de navegación */
+.nav-list {
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex; /* Alinea los elementos en línea */
+    margin: 0; /* Elimina margen por defecto */
+    padding: 0; /* Elimina padding por defecto */
+}
+
+/* Elementos de la lista */
+.nav-list li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+/* Enlaces */
+.nav-list a {
+    text-decoration: none; /* Quita el subrayado */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    transition: color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+/* Hover en los enlaces */
+.nav-list a:hover {
+    color: #ff9800; /* Cambia el color al pasar el mouse */
+}
+
+
+    /* Aquí va el CSS */
+</style>
 </head>
 <body>
     <header>
@@ -37,5 +76,14 @@
     <main>
         <p>Este es el contenido principal de la página.</p>
     </main>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
 </body>
 </html>
